@@ -1,6 +1,6 @@
 hljs_theme:
   description: "Select the theme you want code blocks to use. You can visit <a target='_blank' href='https://highlightjs.org/static/demo/'>the hljs demo page</a> to preview the themes"
-  default: github
+  default: base16-windows-95
   type: enum
   choices:
     - a11y-dark
@@ -77,5 +77,5 @@ hljs_theme:
     - xcode
     - xt256
 hljs_dark_match:
-  default: false
+  default: true
   description: "Load dark color scheme if available"
